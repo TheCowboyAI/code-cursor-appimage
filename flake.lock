@@ -1,5 +1,21 @@
 {
   "nodes": {
+    "cursorVersionInfo": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1744085952,
+        "narHash": "sha256-go55bjwawxFUJlRfM7hlUPn99tW34hPRoS0yQYC+I/M=",
+        "owner": "oslook",
+        "repo": "cursor-ai-downloads",
+        "rev": "05d6665d010fd8441b8fc8ad662431b2451b90aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "oslook",
+        "repo": "cursor-ai-downloads",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,6 +52,7 @@
     },
     "root": {
       "inputs": {
+        "cursorVersionInfo": "cursorVersionInfo",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }
